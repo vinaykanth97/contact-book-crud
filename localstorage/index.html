@@ -58,19 +58,20 @@
                     type="text"
                     class="form-control fname"
                     aria-describedby="emailHelp"
+                    required
                   />
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"
                     >LastName</label
                   >
-                  <input type="text" class="form-control lname" />
+                  <input type="text" class="form-control lname" required/>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"
                     >Email</label
                   >
-                  <input type="email" class="form-control email" />
+                  <input type="email" class="form-control email" required/>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
@@ -90,25 +91,7 @@
             <th scope="col">Delete</th>
           </tr>
         </thead>
-        <tbody class="users">
-          <!-- <tr class="user-data">
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>
-              <button
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                href="#edituser"
-                role="button"
-              >
-                Edit
-              </button>
-            </td>
-            <td><button class="btn btn-danger">Delete</button></td>
-          </tr> -->
-        </tbody>
+        <tbody class="users"></tbody>
       </table>
     </div>
     <div
@@ -135,19 +118,19 @@
                 <label for="exampleInputEmail1" class="form-label"
                   >First Name</label
                 >
-                <input type="text" class="form-control fname data-fieldset" />
+                <input type="text" class="form-control fname data-fieldset" required/>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label"
                   >LastName</label
                 >
-                <input type="text" class="form-control lname data-fieldset" />
+                <input type="text" class="form-control lname data-fieldset" required/>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label"
                   >Email</label
                 >
-                <input type="email" class="form-control email data-fieldset" />
+                <input type="email" class="form-control email data-fieldset" required/>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
